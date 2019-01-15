@@ -5,7 +5,8 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "test": "node_modules/.bin/jest",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "storybook": "storybook start"
   },
   "dependencies": {
     "@types/react-navigation": "^3.0.1",
@@ -29,7 +30,14 @@
     "tslint-config-prettier": "^1.17.0",
     "tslint-config-standard": "^8.0.1",
     "tslint-react": "^3.6.0",
-    "typescript": "^3.2.2"
+    "typescript": "^3.2.2",
+    "@storybook/react-native": "^4.1.6",
+    "@storybook/addon-actions": "^4.1.6",
+    "@storybook/addon-links": "^4.1.6",
+    "@storybook/addons": "^4.1.6",
+    "babel-runtime": "^6.26.0",
+    "react-dom": "16.5.0",
+    "prop-types": "^15.6.2"
   },
   "jest": {
     "preset": "jest-expo"
