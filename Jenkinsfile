@@ -9,8 +9,7 @@ pipeline {
         stage('Checkout') {
                 steps {
                         git branch: 'master',
-                            credentialsId: 'gitlab-credentials',
-                            url: 'https://casgit.moh.gov.sa/cjahfar/expo-typescript-sample.git'
+                            url: 'https://github.com/cjahfar1/expo-typescript-starter.git'
                         echo 'Clone and Checkout from git: Completed'
                 }
         }
